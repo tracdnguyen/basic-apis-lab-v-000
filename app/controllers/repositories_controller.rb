@@ -17,6 +17,6 @@ class RepositoriesController < ApplicationController
        @error = body["message"]
      end
      render 'search'
-  
+
   end
 end
